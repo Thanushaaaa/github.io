@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Forms
+        </title>
+    </head>
+    <body>
+        <table>
+            <form> <!--form-used to create forms-->
+                <div>
+                    <tr> 
+                        <th>Patient name</th>  
+                        <td><input type="text" name="patientName" placeholder="Enter patient's name"></td>
+                    </tr>
+                </div>  
+                <div>
+                    <tr>
+                        <th>Mobile number</th>
+                        <td><input type="number" name="mobileNumber" placeholder="Enter your mobile number"></td>
+                    </tr>  
+                </div>
+                <div>
+                    <tr>
+                        <th>City</th>
+                        <td><input type="text" name="city" placeholder="Enter your city"></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr>
+                        <th>Email Id</th>
+                        <td><input type="email" name="email" placeholder="Enter your email id"></td>
+                    </tr>
+                    <div>
+                        <tr>
+                            <th>Health issue</th>
+                            <td><input type="text" name="healthIssue" placeholder="Enter your health issue"></td>
+                        </tr>
+                    </div>
+                    <div>
+                        <label>Select gender</label>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                        <input type="radio" name="gender">Others
+                    </div>
+                    <div>
+                        <label>Select city</label>
+                        <Select>
+                        <option>Banglore</option>
+                        <option>Chennai</option>
+                        <option>Mysore</option>
+                    </Select>
+                    </div>
+                    <div>
+                        <label>Date of birth</label>
+                        <input type="date" name="dateOfBirth">
+                    </div>
+                    <div>
+                        <label>Age</label>
+                        <input type="number" name="age">
+                    </div>
+                    <div>
+                        <label>Enter your address</label>
+                        <textarea rows="5" cols="10"></textarea>
+                    </div>
+                    <div>
+                        <label>Upload File</label>
+                        <input type="file" name="uploadedFile">
+                    </div>
+                    <div>
+                        <button type="submit">Register</button>
+                        <button type="rest">Reset</button>
+                    </div>
+                
+            </form>
+
+        </table>
+        <table>
+            <form>
+                <div>
+                    <tr>
+                        <th>State name</th>
+                        <td><input type="text" name="stateName" placeholder="Enter state name"></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr>
+                        <th>Chief Minister</th>
+                        <td><input type="text" name="chiefMinister" placeholder="Enter chief minister number"></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr>
+                        <th>Capital City</th>
+                        <td><input type="text" name="capitalCity" placeholder="Enter capital city"></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr>
+                        <th>Health minister</th>
+                        <td><input type="text" name="healthMinister" placeholder="Enter health minister"></td>
+                    </tr>
+                    <div>
+                        <tr>
+                            <th>Finance Minister</th>
+                            <td><input type="text" name="financeMinister" placeholder="Enter finance minister"></td>
+                        </tr>
+                    </div>
+                </div>
+            </form>
+
+        </table>
+        
+    </body>
+    </html>
+</html>
