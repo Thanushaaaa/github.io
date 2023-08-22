@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    
+    <script>
+        //javascript code
+        console.log("Introduction to javascript")
+        //var variable name
+        var a
+        console.log(a) //undefined datatype
+        console.log(typeof(a)) 
+        console.log(b)  //Hoisting concept
+        var b=10 //variable declaration and initialization
+        console.log(typeof(b)) // number datatype
+        console.log(b)
+        b="javascript"
+        console.log(b) //String datatype
+        console.log(typeof(b))
+        b=true
+        console.log(b) //boolean datatype
+        console.log(typeof(b))
+        //Datatypes
+        //undefined,string,number,boolean
+
+        //Functions
+        //function functionname(){
+
+        // }
+        function display()
+        {
+            console.log("Calling display")
+        }
+        display() //function calling
+
+        function add(a,b){
+            console.log(a)
+            console.log(b)
+        }
+        add(10,20)
+
+
+        document.write("Introduction to javascript")//to write content on page
+        document.write("<h1> Introduction to javascript</h1>")
+        document.write("<h2> Introduction to javascript</h2>")
+        document.write("<h3> Introduction to javascript</h3>")
+        document.write("<h4> Introduction to javascript</h4>")
+        document.write("<h5> Introduction to javascript</h5>")
+        document.write("<h6> Introduction to javascript</h6>")
+        document.write("<p>Welcome to the page<p>")
+
+        // button action click-respone
+        //Event Handling -action - event - click
+        //Event is handled by a function
+
+        function clickMe()
+        {
+            console.log("Click me button") //clickMe
+            var message=document.getElementById("message")
+            console.log(message)
+            message.innerHTML="calling from click me"
+            message.style.color="blue"
+      
+        }
+        function mouseOver()
+        {
+            console.log("Mouse over")
+        }
+        
+    </script>
+    </head>
+    <body> 
+        <h1>Introduction to javascript</h1>
+    
+        <button onclick="clickMe()">Click Me!</button><span id="message"></span> <br>
+        <button onmouseover="clickMe()">Click over mouse</button><br>
+        <button onmouseover="mouseOver()">Mouse over</button>
+
+
+        
+    </body>
+</html>
