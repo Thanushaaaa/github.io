@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Selectors</title>
+        <style>
+        h1,h2{      
+            color:red;
+            font-size:100px;
+            text-decoration:underline;
+            text-transform:uppercase;
+            
+        }
+        .greet{  
+            color:green;
+            font-size:100px;
+        }
+        #name{
+            color:blueviolet;
+        }
+        body{
+            background-image: url('Shubman.avif');
+            background-repeat: no-repeat;
+            background-size:contain;
+            background-color: black;
+        }
+        .rectangle{
+            border: 1px solid green;
+            height: 100px;
+            width: 500px;
+            display:inline-block;
+        }
+        
+        .square{
+            border:5px solid blue;
+            height: 300px;
+            width: 300px;
+            display: inline-block;
+        }
+       /* .rectangle{
+            border: 1px solid green;
+            height: 50px;
+            width: 100px;
+            display:inline-block;
+        }*/
+        
+
+    </style>
+    </head>
+    <body> <!--groupng selector-->
+        <!--Class selector-->
+        <!--Id selector-->
+        <h1>Cascading style sheet</h1>
+        <h2>Introduction</h2>
+        <h3 class="greet">Hello!Welcome to the city</h3>
+        <h4 class="greet" id="name">Select city name</h4>
+        <div class="rectangle">Rectangle</div>
+        <div class="square">Square</div>
+        
+    </body>
+</html>
